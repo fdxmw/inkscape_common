@@ -1,18 +1,20 @@
 '''Various default drawing preferences for Inkscape extensions.'''
 
 defaults = {
-    # Default color for cut lines.
-    'cut_color': '#880000',
-    # Default color for crease lines.
-    'crease_color': '#008800',
-    # Default color for pen lines.
-    'pen_color': '#000088',
+    # Default color for cut lines (red).
+    'cut_color': '#d62728',
+    # Default color for crease lines (green).
+    'crease_color': '#2ca02c',
+    # Default color for pen lines (blue).
+    'pen_color': '#1f77b4',
 
+    # This corresponds to the SVG attribute 'stroke-width'. Note the dash
+    # instead of the underscore.
     'stroke_width': '0.1mm',
 
     # Gap between adjacent templates.
     'template_spacing': '1mm',
 
-    # Default fill colors. There must be at least two.
-    'fill_colors': ['#ffe9a6', '#a8cbfe'],
+    # Default fill colors (yellow, blue, green, purple).
+    'fill_colors': ['#ffe9a6', '#a8cbfe', '#b2dfbc', '#cbbbe9'],
 }
