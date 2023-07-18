@@ -13,7 +13,7 @@ defaults = {
     'stroke_width': '0.1mm',
 
     # Gap between adjacent templates.
-    'template_spacing': '1mm',
+    'template_spacing': '1.5mm',
 
     # Default fill colors (yellow, blue, green, purple).
     'fill_colors': ['#ffe9a6', '#a8cbfe', '#b2dfbc', '#cbbbe9'],
